@@ -18,10 +18,12 @@
 .screen p{
 	font-family: verdana, sans-serif;
 	font-size: 30px;
-	padding-left: 40%;
+	padding-left: 38%;
+	padding-right: 2%;
 	padding-top:3%;
+	text-align:right;
 }
-.buttons{
+#buttons{
 	padding: 3%;
 }
 button{
@@ -46,11 +48,11 @@ button:active {
 	vertical-align: top;
 }
 
-#equals {
+#button_equals {
 	position:absolute;
 	height: 105px;
 	padding-top: 65px;
 }
-#zero{
+#button_0{
 	width:190px;
 }
